@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <title>TTS Demo Page</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<style>
+body,h1 {font-family: "Raleway", sans-serif}
+body, html {height: 100%}
+.bgimg {
+  background-image: url('https://wallpaperaccess.com/full/6874046.jpg');
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+</style>
+<body>
+
+<div class="bgimg w3-display-container w3-animate-opacity w3-text-white">
+  <div class="w3-display-topmiddle w3-padding-large w3-xlarge">
+    Text to Speech Demo
+  </div>
+  <div class="w3-display-middle">
+    <form method="post">
+        
+        <input type="text" name="num" value="{{ num }}"/>
+        <input type="submit" value="Read Out!">
+    </form>
+    
+    <hr>
+    <a href="/stt"> Go to Seech to text </a> 
+   
+    </body>
+    </html>
+
+
+</body>
+</html>
